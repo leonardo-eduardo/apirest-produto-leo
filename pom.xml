@@ -15,6 +15,7 @@
 	<name>apirest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
@@ -28,11 +29,19 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>

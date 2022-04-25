@@ -32,11 +32,15 @@ public class SwaggerConfig {
 
 	private ApiInfo metaInfo() {
 
-		ApiInfo apiInfo = new ApiInfo("Produtos API REST", "API REST de cadastro de produtos", "1.0",
-				"Termos de serviço",
-				new Contact("Leonardo Eduardo", "https://www.linkedin.com/in/leonardo-eduardo-8a20b6221/",
+		ApiInfo apiInfo = new ApiInfo("Produtos API REST",
+									"API REST de cadastro de produtos", 
+									"1.0",
+									"Termos de serviço",
+				new Contact("Leonardo Eduardo", 
+						"https://www.linkedin.com/in/leonardo-eduardo-8a20b6221/",
 						"leonardo.eduardo@gmail.com"),
-				"Apache License Version 2.0", "http://www.apache.org/licensen.html", new ArrayList<VendorExtension>());
+				"Apache License Version 2.0", 
+				"http://www.apache.org/licensen.html", new ArrayList<VendorExtension>());
 		return apiInfo;
 
 	}
